@@ -1,6 +1,5 @@
 # Whiteboarding Question: Payment Processing System  
 
-## Problem Statement  
 You are designing a **payment processing system** for an online store. The store supports multiple payment methods:  
 - **Credit Card**  
 - **PayPal**  
