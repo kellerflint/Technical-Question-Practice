@@ -4,23 +4,28 @@
 You are designing a **notification system** that sends messages through different channels. The system should support multiple types of notifications while ensuring all notifications follow a common structure.  
 
 ### **Requirements:**  
-1. Every notification must have a **recipient** (who receives the message).  
-2. Each notification type must have a **send()** method that prints the message to the console.  
-3. Different types of notifications have different message formats:  
-   - An **EmailNotification** should print:  
-     ```
-     Sending Email to user@example.com: "You've got mail!"
-     ```
-   - A **SMSNotification** should print:  
-     ```
-     Sending SMS to +1234567890: "New message received!"
-     ```
-   - A **PushNotification** should print:  
-     ```
-     Sending Push Notification to user123: "Check your app for updates!"
-     ```
-4. The system should be **easily extendable** to support more notification types in the future without modifying existing code.  
-5. You should be able to **store multiple notifications in a list and send them all using a loop**.  
+Every notification must have a recipient (who receives the message).  
+
+Each notification type must have a send() method that prints the message to the console.  
+
+Different types of notifications have different message formats:  
+
+An **EmailNotification** should print:  
+```
+Sending Email to user@example.com: "You've got mail!"
+```
+A **SMSNotification** should print:  
+```
+Sending SMS to +1234567890: "New message received!"
+```
+A **PushNotification** should print:  
+```
+Sending Push Notification to user123: "Check your app for updates!"
+```
+
+The system should be easily extendable to support more notification types in the future without modifying existing code.  
+
+You should be able to store multiple notifications in a queue and send them all using a loop.  
 
 ---
 
