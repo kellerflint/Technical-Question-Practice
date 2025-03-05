@@ -1,8 +1,5 @@
 # Whiteboarding Question: Notification System  
 
-## Problem Statement  
-You are designing a **notification system** that sends messages through different channels. The system should support multiple types of notifications while ensuring all notifications follow a common structure.  
-
 ### **Requirements:**  
 Every notification must have a recipient (who receives the message).  
 
