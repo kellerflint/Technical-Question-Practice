@@ -1,8 +1,5 @@
 # Solution: Notification System  
 
-### **Implementation**  
-Below is the correct implementation using inheritance.  
-
 ### **Step 1: Define the Base Class (`Notification`)**  
 - Stores shared data (`recipient`, `message`).  
 - Defines the common behavior (`send()` must be implemented in subclasses).  
