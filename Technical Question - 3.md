@@ -1,20 +1,17 @@
 # Whiteboarding Question: Payment Processing System  
 
-You are designing a **payment processing system** for an online store. The store supports multiple payment methods:  
-- **Credit Card**  
-- **PayPal**  
-- **Bitcoin**  
+You are designing a payment processing system for an online store. The store supports multiple payment methods.
 
 ### **Requirements:**  
-1. The checkout system must be able to **process any payment** in the same way.  
+1. The checkout system must be able to process any payment in the same way.  
 2. Each payment method must have a `process(double amount) -> boolean` function that:  
    - Takes an amount as input.  
    - Returns whether the payment was successful.  
-3. Different payment methods require **different data** to be created:  
-   - **PayPal** needs an **email and password**.  
-   - **Credit Card** needs a **card number, CVV, and billing address**.  
-   - **Bitcoin** needs a **wallet address**.  
-4. The system should be **easily extendable** to support future payment methods.  
+3. Different payment methods require different data to be created:  
+   - **PayPal** needs an email and password.  
+   - **Credit Card** needs a card number, CVV, and billing address.  
+   - **Bitcoin** needs a wallet address.  
+4. The system should be easily extendable to support future payment methods.  
 
 ### **Example Expected Usage:**  
 ```java
