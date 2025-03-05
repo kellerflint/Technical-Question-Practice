@@ -5,7 +5,7 @@
 - Defines the common behavior (`send()` must be implemented in subclasses).  
 - Implements a logging feature that all notifications inherit.
   
-```
+```java
 abstract class Notification {
     protected String recipient;
     protected String message;
@@ -27,7 +27,7 @@ abstract class Notification {
 ### **Step 2: Implement Subclasses for Each Notification Type**  
 Each subclass **inherits from `Notification`** and **implements `send()` uniquely**.  
 
-```
+```java
 class EmailNotification extends Notification {
     private String subject;
 
@@ -75,7 +75,7 @@ class PushNotification extends Notification {
 ### **Step 3: Demonstration**
 This method tests the system by creating different notifications and sending them.  
 
-```
+```java
 public class NotificationSystem {
     public static void main(String[] args) {
         Notification email = new EmailNotification("user@example.com", "Important Update", "You've got mail!");
