@@ -14,7 +14,7 @@ You are designing a payment processing system for an online store. The store sup
 4. The system should be easily extendable to support future payment methods.  
 
 ### **Task**  
-Design and implement the system. Your solution should:  
+Design and implement the classes required to make this example work. Your solution should:  
 - Define a structure that ensures all payment methods can be handled the same way at checkout.  
 - Ensure all payment methods follow a consistent structure.  
 - Make it easy to add new payment methods without modifying existing code.  
