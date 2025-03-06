@@ -38,3 +38,14 @@ public static void main(String[] args) {
     checkout(creditCardPayment, 100.00);  
     checkout(bitcoinPayment, 200.00);  
 }
+```
+
+### **Expected Console Output:**
+```
+Processing PayPal payment of $50.0 for user@example.com
+Payment successful!
+Processing Credit Card payment of $100.0 for card 1234-5678-9012-3456
+Payment successful!
+Processing Bitcoin payment of $200.0 to wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+Payment successful!
+```
